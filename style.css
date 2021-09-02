@@ -1,0 +1,70 @@
+body {
+  background-color: #dde1d4;
+  padding: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.father {
+  display: grid;
+  height: 100vh;
+  grid-template:
+    "big1 big1 big2 big2" 1fr
+    "big1 big1 big2 big2" 1fr
+    "big3 big3 small1 small2" 1fr
+    "big3 big3 small3 small4" 1fr;
+}
+
+.big1 {
+  color: red;
+  background-color: brown;
+  grid-area: big1;
+}
+.big2 {
+  color: white;
+  background-color: darkorange;
+  grid-area: big2;
+}
+.big3 {
+  color: white;
+  background-color: darkgoldenrod;
+  grid-area: big3;
+}
+
+#big {
+  display: flex;
+  font-size: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+#small {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.small1 {
+  color: red;
+  background-color: darkgray;
+  grid-area: small1;
+}
+.small2 {
+  color: white;
+  background-color: darksalmon;
+  grid-area: small2;
+}
+.small3 {
+  color: red;
+  background-color: green;
+  grid-area: small3;
+}
+.small4 {
+  color: white;
+  background-color: greenyellow;
+  grid-area: small4;
+}
