@@ -1,1 +1,3 @@
-# css-clone-poster3-2021
+# Goal : clone this poster...
+
+![clone-poster3](https://user-images.githubusercontent.com/73802576/131771512-9678ff47-4af6-4d93-8879-1a48f1e35ed0.jpg)
