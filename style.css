@@ -20,17 +20,17 @@ body {
 
 .big1 {
   color: red;
-  background-color: brown;
+  background-color: #dcdcdc;
   grid-area: big1;
 }
 .big2 {
   color: white;
-  background-color: darkorange;
+  background-color: #3cb371;
   grid-area: big2;
 }
 .big3 {
   color: white;
-  background-color: darkgoldenrod;
+  background-color: #ff4500;
   grid-area: big3;
 }
 
@@ -50,21 +50,21 @@ body {
 
 .small1 {
   color: red;
-  background-color: darkgray;
+  background-color: #ffc0cb;
   grid-area: small1;
 }
 .small2 {
   color: white;
-  background-color: darksalmon;
+  background-color: #6a5acd;
   grid-area: small2;
 }
 .small3 {
   color: red;
-  background-color: green;
+  background-color: #ffd700;
   grid-area: small3;
 }
 .small4 {
   color: white;
-  background-color: greenyellow;
+  background-color: #f08080;
   grid-area: small4;
 }
